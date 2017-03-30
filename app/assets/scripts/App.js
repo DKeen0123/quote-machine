@@ -23,6 +23,7 @@ randomQuote();
 
 $('#tweet').on("click", function(){
      var ranQuote = $('#quote').text();
-     var enCode = encodeURI(ranQuote);
+     var ranAuthor = $('#author').text();
+     var enCode = encodeURI(ranQuote + ranAuthor);
   window.open("https://twitter.com/intent/tweet?text="+ enCode)
 });

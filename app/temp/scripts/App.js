@@ -10359,7 +10359,8 @@ function randomQuote() {
 
 (0, _jquery2.default)('#tweet').on("click", function () {
     var ranQuote = (0, _jquery2.default)('#quote').text();
-    var enCode = encodeURI(ranQuote);
+    var ranAuthor = (0, _jquery2.default)('#author').text();
+    var enCode = encodeURI(ranQuote + ranAuthor);
     window.open("https://twitter.com/intent/tweet?text=" + enCode);
 });
 
