@@ -517,7 +517,7 @@ q:after  { content: close-quote; }
    background-color: white;
    text-align: center;
    font-size: 1.8rem;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
    display: block;
    font-family: 'Macondo', cursive;
 }
@@ -548,6 +548,15 @@ q:after  { content: close-quote; }
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   border-radius: 8px;
   outline: 0;
+}
+
+.button__btn:hover {
+  background-color: #9C9C9C;
+}
+
+.button__btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .links {
