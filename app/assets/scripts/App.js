@@ -6,7 +6,7 @@ $.ajax({
 dataType: "json",
 data: "method=getQuote&format=json&lang=en",
     success: function(data) {
-      $("#quote").html("<p id='quote' class='lead text-center'>" + data.quoteText);
+      $("#quote").html("<p id='quote'><q>" + data.quoteText + "</q></p>");
       $("#author").html("<p id='author'>" + "<br/>&dash; " + data.quoteAuthor + "&dash;</p>" );
     }
 

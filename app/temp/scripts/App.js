@@ -10342,7 +10342,7 @@ function randomQuote() {
         dataType: "json",
         data: "method=getQuote&format=json&lang=en",
         success: function success(data) {
-            (0, _jquery2.default)("#quote").html("<p id='quote' class='lead text-center'>" + data.quoteText);
+            (0, _jquery2.default)("#quote").html("<p id='quote'><q>" + data.quoteText + "</q></p>");
             (0, _jquery2.default)("#author").html("<p id='author'>" + "<br/>&dash; " + data.quoteAuthor + "&dash;</p>");
         }
 

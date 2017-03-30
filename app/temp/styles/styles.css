@@ -492,6 +492,12 @@ a:active {
         color: black;
       }
 
+q { quotes: '\201c' '\201d'; }
+
+q:before { content: open-quote; }
+
+q:after  { content: close-quote; }
+
 .container {
   min-height: 400px;
   width: 750px;
