@@ -1,11 +1,12 @@
 .container {
-  display: flex;
-  min-height: 500px;
+  min-height: 400px;
+  width: 750px;
   margin-right: 30%;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 20%;
   padding-bottom: 20px;
   text-align: center;
   color: black;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Macondo', cursive;
+
 }

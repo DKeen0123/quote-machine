@@ -461,12 +461,12 @@ template {
 }
 
 * {
-  box-sizing: border-box;
-  background-color: #C63D0F;
+ box-sizing: border-box;
 }
 
 body {
   position: relative;
+  background-color: #C63D0F;
 }
 
 a:link {
@@ -483,7 +483,7 @@ a:visited {
 
 a:hover {
         color: black;
-text-decoration: none;
+        text-decoration: none;
 }
 
 /* mouse over link */
@@ -493,15 +493,57 @@ a:active {
       }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 500px;
+  min-height: 400px;
+  width: 750px;
   margin-right: 30%;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 20%;
   padding-bottom: 20px;
   text-align: center;
   color: black;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Macondo', cursive;
+
+}
+
+.quote-box {
+  border-radius: 10px;
+   padding: 10px 30px;
+   background-color: white;
+   text-align: center;
+   font-size: 1.8rem;
+   margin-bottom: 10px;
+   display: block;
+   font-family: 'Macondo', cursive;
+}
+
+.button {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display:block;
+}
+
+.button__twitter {
+  float: left;
+  font-size: 2.2rem;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.button__quote {
+  padding-right: 35px;
+  text-decoration: none;
+}
+
+.button__btn {
+  font-family: 'Macondo', cursive;
+  padding: 12px 20px;
+  font-size: 1.4rem;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
+
+.links {
+  padding: 20px;
+  font-size: 1.2rem;
 }
