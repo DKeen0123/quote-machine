@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background-color: #C63D0F;
+}
+
+body {
+  position: relative;
+}
+
+a:link {
+  color: black;
+  }      /* unvisited link */
+      a:visited {
+        color: black;
+        }   /* visited link */
+      a:hover {
+        color: black;
+text-decoration: none;
+}     /* mouse over link */
+      a:active {
+        color: black;
+      }
